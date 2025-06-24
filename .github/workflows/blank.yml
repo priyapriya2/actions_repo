@@ -4,11 +4,12 @@ jobs:
   firstjob:
     runs-on: ubuntu-latest
     steps:
-      -name: List out the directory contents
-       run: |
-            echo "Hello"
-            ls
-      -name: Print bye
-      run:
-      echo "Bye"
+      - name: List out the directory contents
+        run: echo "hello"
+      - name: Print hello
+        run: |
+         echo "hello"
+         echo "first"
+         
+       
   
